@@ -8,6 +8,7 @@ This model helps HR and management teams proactively identify at-risk employees 
 - [Project Structure](#project-structure)
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 - [Modeling Approach](#modeling-approach)
+- [Model Evaluation] (#Model-Evaluation)
 
 
   
@@ -20,3 +21,4 @@ Employee attrition prediction is vital for reducing turnover-related costs and b
 
 * Model_Building.ipynp: This folder houses various model experimentation and evaluation. Various machine learning models are tested, fine-tuned, and validated here, with the goal of identifying the optimal approach for predicting employee attrition.
 ## Exploratory Data Analysis
+## Model Evaluation
