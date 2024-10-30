@@ -8,7 +8,7 @@ This model helps HR and management teams proactively identify at-risk employees 
 - [Project Structure](#project-structure)
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 - [Modeling Approach](#modeling-approach)
-- [Model Evaluation] (#model-evaluation)
+- [Model Evaluation](#model-evaluation)
 
 
   
