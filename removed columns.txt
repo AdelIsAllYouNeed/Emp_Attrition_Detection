@@ -1,0 +1,13 @@
+EmpID
+DailyRate
+Education
+EmployeeCount
+EmployeeNumber
+MartialStatus
+SalarySlab
+Over18
+PercentSalaryHike
+RelationshpSatisfaction
+StandardHours
+StockOptionLevel
+rainingTimesLastYear

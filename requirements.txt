@@ -1,0 +1,10 @@
+seaborn
+numpy
+pandas
+matplotlib
+xgboost
+scikit-learn
+pickle-mixin
+jupyter
+seaborn
+statsmodels
