@@ -1,5 +1,5 @@
 # Emp Attrition Prediction
-A machine learning project to predict employee attrition based on various factors such as demographics, job satisfaction, and work environment details. This model helps HR and management teams proactively identify at-risk employees and improve retention strategies.
+A machine learning project to predict employee attrition based on various factors such as demographics, job satisfaction, and work compensation details. This model helps HR and management teams proactively identify at-risk employees and improve retention strategies.
 
 ## Table of Contents
 - [Overview](#overview)
