@@ -29,7 +29,7 @@ The dataset initially contained **1480 rows and 38 columns**. Detailed descripti
   
 ### Handling Missing Values
 - **YearsWithCurrManager**: Only column with missing values (57 entries). Missing values were imputed with the median, which provided a more accurate central value unaffected by outliers and right skewness of the distrbution.
-![Attrition Chart](figure/yacdist.png)
+![Attrition Chart](figures/yacdist.png)
 
 ### Duplicate Records
 - Found 20 duplicate records based on unique identifiers (`EmpID` and `EmployeeNumber`). These were verified as exact copies, and only the first occurrence was retained.
