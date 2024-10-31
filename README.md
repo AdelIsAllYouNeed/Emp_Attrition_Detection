@@ -59,10 +59,12 @@ The modeling process involved preparing the data for classification using Random
 ## Model Evaluation
 The evaluation focused on key performance metrics:
 ### Confusion Matrix
-| Predicted Negative | Predicted Positive |
-|--------------------|--------------------|
-| **Actual Negative** | 359              | 4               |
-| **Actual Positive** | 65               | 13              |
+### Confusion Matrix
+|                  | Predicted Negative | Predicted Positive |
+|------------------|--------------------|--------------------|
+| **Actual Negative** | 359              | 4                 |
+| **Actual Positive** | 65               | 13                |
+
 
 ### Evaluation Metrics
 
