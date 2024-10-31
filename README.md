@@ -58,10 +58,26 @@ The modeling process involved preparing the data for classification using Random
 
 ## Model Evaluation
 The evaluation focused on key performance metrics:
+### Confusion Matrix
+| Predicted Negative | Predicted Positive |
+|--------------------|--------------------|
+| **Actual Negative** | 359              | 4               |
+| **Actual Positive** | 65               | 13              |
+
+### Evaluation Metrics
+
+| Metric                | Class 0(Styd)| Class1(Left) | Accuracy   | Macro Avg | Weighted Avg |
+|-----------------------|--------------|--------------|------------|-----------|--------------|
+| **Precision**         | 0.85         | 0.76         | -          | 0.81      | 0.83         |
+| **Recall**            | 0.99         | 0.17         | -          | 0.58      | 0.84         |
+| **F1-score**          | 0.91         | 0.27         | -          | 0.59      | 0.80         |
+| **Support**           | 363          | 78           | 441        | 441       | 441          |
+
+- **Overall Accuracy**: 0.84 (84%)
 
 - **Confusion Matrix**: Showed good accuracy on the test set, though with challenges in predicting minority attrition cases.
 - **Classification Report**:
-  - **Precision**: 76% for the attrition class, indicating the model’s ability to correctly identify at-risk employees.
+  - **Precision**: 76% for the attrition class.
   - **Recall**: 17% for attrition, reflecting some missed at-risk employees due to class imbalance.
 - **Feature Importance**: Key features impacting attrition predictions included `MonthlyIncome`, `Age`, `TotalWorkingYears`, and `YearsAtCompany`.
 
