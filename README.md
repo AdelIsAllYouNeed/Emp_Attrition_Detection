@@ -26,6 +26,7 @@ The dataset initially contained **1480 rows and 38 columns**. Detailed descripti
 - **Categorical Variables**:
   - `BusinessTravel`: Categories include `Travel_Rarely`, `Travel_Frequently`, and `Non-Travel`. `Travel_Rarely` is the most common.
   - `Attrition`: Target variable, with 16% of employees having left the company, leading to a class imbalance.
+  - `Over18` Binary Varaible, Contained 100% `Yes` answer, on the other hand, `StandardHours` which discribes contained constand `80` hours across all answers with 0 variance. so i dropped these columns from the study.   
   
 ### Handling Missing Values
 - **YearsWithCurrManager**: Only column with missing values (57 entries). Missing values were imputed with the median, which provided a more accurate central value unaffected by outliers and right skewness of the distrbution.
