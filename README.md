@@ -38,7 +38,7 @@ The dataset initially contained **1480 rows and 38 columns**. Detailed descripti
 ### Key EDA Insights:
 ![Attrition Chart](figures/travel.png)
 - **Attrition by Business Travel**: Higher attrition (24%) among
-- employees who `Travel_Frequently`.
+ employees who `Travel_Frequently`.
   ![Attrition Chart](figures/overtime.png)
 - **Attrition by OverTime**: Significant attrition (30%) among employees working overtime.
   ![Attrition Chart](figures/salary.png)
