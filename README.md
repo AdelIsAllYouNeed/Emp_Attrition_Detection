@@ -36,7 +36,7 @@ The dataset initially contained **1480 rows and 38 columns**. Detailed descripti
 - Found 20 duplicate records based on unique identifiers (`EmpID` and `EmployeeNumber`). These were verified as exact copies, and only the first occurrence was retained.
 
 ### Key EDA Insights:
-![Attrition Chart](figures/travel.png)
+-![Attrition Chart](figures/travel.png)
 - **Attrition by Business Travel**: Higher attrition (24%) among
  employees who `Travel_Frequently`.
   ![Attrition Chart](figures/overtime.png)
