@@ -28,7 +28,8 @@ The dataset initially contained **1480 rows and 38 columns**. Detailed descripti
   - `Attrition`: Target variable, with 16% of employees having left the company, leading to a class imbalance.
   
 ### Handling Missing Values
-- **YearsWithCurrManager**: Only column with missing values (57 entries). Missing values were imputed with the median, which provided a more accurate central value unaffected by outliers.
+- **YearsWithCurrManager**: Only column with missing values (57 entries). Missing values were imputed with the median, which provided a more accurate central value unaffected by outliers and right skewness of the distrbution.
+![Attrition Chart](figure/yacdist.png)
 
 ### Duplicate Records
 - Found 20 duplicate records based on unique identifiers (`EmpID` and `EmployeeNumber`). These were verified as exact copies, and only the first occurrence was retained.
@@ -78,5 +79,3 @@ To improve model performance and address class imbalance, potential enhancements
 - **Ensemble Methods**: Testing ensemble models or hyperparameter tuning to boost recall without sacrificing precision.
 
 ---
-
-This README provides a structured and clear overview, with each section detailing the project’s scope, data handling, modeling approach, and potential future improvements. Let me know if there's anything more you’d like to add!
