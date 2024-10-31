@@ -36,8 +36,12 @@ The dataset initially contained **1480 rows and 38 columns**. Detailed descripti
 - Found 20 duplicate records based on unique identifiers (`EmpID` and `EmployeeNumber`). These were verified as exact copies, and only the first occurrence was retained.
 
 ### Key EDA Insights:
-- **Attrition by Business Travel**: Higher attrition (24%) among employees who `Travel_Frequently`.
+![Attrition Chart](figures/travel.png)
+- **Attrition by Business Travel**: Higher attrition (24%) among
+- employees who `Travel_Frequently`.
+  ![Attrition Chart](figures/overtime.png)
 - **Attrition by OverTime**: Significant attrition (30%) among employees working overtime.
+  ![Attrition Chart](figures/salary.png)
 - **Attrition by SalarySlab**: Employees earning below `5k` per month showed a higher attrition rate (21%).
 
 ## Modeling Approach
