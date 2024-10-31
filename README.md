@@ -45,7 +45,7 @@ The dataset initially contained **1480 rows and 38 columns**. Detailed descripti
 - **Attrition by SalarySlab**: Employees earning below `5k` per month showed a higher attrition rate (21%).
 
 ## Modeling Approach
-The modeling process involved preparing the data for classification using machine learning models.
+The modeling process involved preparing the data for classification using RandomForest Trees.
 
 1. **Feature Selection**: Based on EDA insights, relevant features were chosen for the model:
    - `YearsAtCompany`, `OverTime`, `MonthlyIncome`, `BusinessTravel`, `WorkLifeBalance`, `JobSatisfaction`, `Age`, `TotalWorkingYears`
@@ -76,11 +76,12 @@ The evaluation focused on key performance metrics:
 | OverTime           | 6.5%       |
 | BusinessTravel     | 5.1%       |
 
-## Future Work
+## Work in Progress
 To improve model performance and address class imbalance, potential enhancements include:
 
 - **Oversampling Techniques**: Applying SMOTE or similar methods to balance the classes.
 - **Advanced Feature Engineering**: Adding features based on domain insights, such as employee engagement levels.
 - **Ensemble Methods**: Testing ensemble models or hyperparameter tuning to boost recall without sacrificing precision.
+* also Logistic regression will be implemented to compare its preformance to the RFT model.
 
 ---
